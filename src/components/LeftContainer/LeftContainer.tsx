@@ -1,6 +1,6 @@
 import React from 'react';
 import "./LeftContainer.scss";
-
+import { BsTrash } from 'react-icons/bs';
 
 const LeftContainer = () => {
     return (
@@ -18,16 +18,31 @@ const LeftContainer = () => {
             </nav>
             <ul className='left-main'>
                 <li className='left-main-grp'>
-                        <p>NIFTY 50</p>
-                        <p>18000</p>      
+                    <p>NIFTY 50</p>
+                    <p>18000</p>
+                    <div className='btn-overlay'>
+                        <button className=' btn buy-btn'>B</button>
+                        <button className=' btn sell-btn'>S</button>
+                        <button className=' btn rmv-btn'><BsTrash /></button>
+                    </div>
                 </li>
                 <li className='left-main-grp'>
-                        <p>INDIA VIX</p>
-                        <p >12</p>         
+                    <p>INDIA VIX</p>
+                    <p >12</p>
+                    <div className='btn-overlay'>
+                        <button className=' btn buy-btn'>B</button>
+                        <button className=' btn sell-btn'>S</button>
+                        <button className=' btn rmv-btn'><BsTrash /></button>
+                    </div>
                 </li>
-                <li className='left-main-grp'>          
-                        <p>TATA STEEL</p>
-                        <p>18000</p>
+                <li className='left-main-grp'>
+                    <p>TATA STEEL</p>
+                    <p>18000</p>
+                    <div className='btn-overlay'>
+                        <button className=' btn buy-btn'>B</button>
+                        <button className=' btn sell-btn'>S</button>
+                        <button className=' btn rmv-btn'><BsTrash /></button>
+                    </div>
                 </li>
             </ul>
         </div>
