@@ -1,3 +1,16 @@
 .right-container{
     flex: 3;
+
+    .right-nav{
+        display: flex;
+
+        .right-nav-list{
+            list-style: none;
+
+            display: flex;
+            gap: 20px;
+
+            
+        }
+    }
 }

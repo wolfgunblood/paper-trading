@@ -5,18 +5,18 @@ const RightContainer = () => {
   return (
     <div className='right-container'>
         <nav className='right-nav'>
-            <ul>
-                <li>
-                    <p>dashboard</p>
+            <ul className='right-nav-list'>
+                <li className=' nav-items active'>
+                    <p>Dashboard</p>
                 </li>
-                <li>
+                <li className=' nav-items'>
                     <p>Orders</p>
                 </li>
-                <li>
+                <li className=' nav-items'>
                     <p>Holdings</p>
-                <li>
-                    <p>Position</p>
                 </li>
+                <li className=' nav-items'>
+                    <p>Position</p>
                 </li>
             </ul>
         </nav>
