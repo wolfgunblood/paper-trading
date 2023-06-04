@@ -23,7 +23,7 @@ const LeftContainer = () => {
                 </li>
                 <li className='left-main-grp'>
                         <p>INDIA VIX</p>
-                        <p>12</p>         
+                        <p >12</p>         
                 </li>
                 <li className='left-main-grp'>          
                         <p>TATA STEEL</p>

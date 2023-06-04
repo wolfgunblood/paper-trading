@@ -11,6 +11,10 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+
+  --sys-red : rgb(205, 64, 64);
+  --sys-green : rgba(59, 152, 59, 0.87);
+  --sys-orange: rgba(193, 163, 31, 0.836);
 }
 
 *{
