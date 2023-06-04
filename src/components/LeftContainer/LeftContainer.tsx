@@ -1,6 +1,8 @@
 import React from 'react';
 import "./LeftContainer.scss";
 import { BsTrash } from 'react-icons/bs';
+import { AiOutlineSearch } from 'react-icons/ai';
+import { IconContext } from "react-icons";
 
 const LeftContainer = () => {
     return (
@@ -10,11 +12,16 @@ const LeftContainer = () => {
                     <h5>NIFTY 50 <span>180000</span></h5>
                     <h5>BANKNIFTY <span>450000</span></h5>
                 </div>
-                <input
-                    type="text"
-                    placeholder='Eg: NIFTY 50,Tata Steel'
-                    className='left-nav-input'
-                />
+                <div className='left-nav-input-container'>
+                    <IconContext.Provider value={{ size: "30",className: "left-nav-input-search" }}>
+                        <AiOutlineSearch />
+                    </IconContext.Provider>
+                    <input
+                        type="text"
+                        placeholder='Eg: NIFTY 50,Tata Steel'
+                        className='left-nav-input'
+                    />
+                </div>
             </nav>
             <ul className='left-main'>
                 <li className='left-main-grp'>
