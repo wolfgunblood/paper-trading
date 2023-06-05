@@ -1,8 +1,12 @@
-import React from 'react'
+import React from 'react';
+import "./Holding.scss";
+import Initial from '../../components/Initial/Initial';
 
 const Holdings = () => {
   return (
-    <div>Holdings</div>
+    <div className='holding-container'>
+      <Initial />
+    </div>
   )
 }
 

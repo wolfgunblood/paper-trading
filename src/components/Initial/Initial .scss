@@ -1,0 +1,27 @@
+.initial-container{
+
+    
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    align-items: center;
+    justify-content: center;
+
+    .get-started-btn{
+        padding: 0.8rem 1.5rem;
+
+        border-radius: 5px;
+        font-size: 12px;
+        font-weight: 500;
+        background-color: #0064FF;
+
+        border: none;
+        outline: none;
+
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+}
