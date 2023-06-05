@@ -7,6 +7,10 @@
         justify-content: space-between;
         padding: 0 2%;
 
+        .active{
+            color: bisque;
+        }
+
         .right-nav-list{
             list-style: none;
 
@@ -14,7 +18,13 @@
             gap: 20px;
 
             .nav-items{
+                display: flex;
+                align-items: center;
                 cursor: pointer;
+                gap: 10px;
+                p{
+                    font-size: 12px;
+                }
             }
 
         }
