@@ -9,6 +9,7 @@ import Holdings from '../../Pages/Holdings/Holdings';
 import Position from '../../Pages/Position/Position';
 import { AiOutlineBell } from "react-icons/ai";
 import { BiUserCircle } from "react-icons/bi";
+import NotificationOverlay from '../../components/NotificationOverlay/NotificationOverlay';
 
 const RightContainer = () => {
     const navigate = useNavigate();
@@ -32,6 +33,7 @@ const RightContainer = () => {
                     </li>
                     <li className='nav-items'>
                         <AiOutlineBell size={20} />
+                        <NotificationOverlay />
                     </li>
                     <li className='nav-items'>
                         <BiUserCircle size={20} />
