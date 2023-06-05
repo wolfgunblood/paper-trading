@@ -1,8 +1,12 @@
-import React from 'react'
+import React from 'react';
+import "./Position.scss";
+import Initial from '../../components/Initial/Initial'
 
 const Position = () => {
   return (
-    <div>Position</div>
+    <div className='position-container'>
+      <Initial />
+    </div>
   )
 }
 
