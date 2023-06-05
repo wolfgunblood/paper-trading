@@ -1,5 +1,7 @@
 import React from 'react';
-import "./DashBorad.scss"
+import "./DashBorad.scss";
+import { AiOutlinePieChart } from "react-icons/ai";
+import { BiDroplet } from "react-icons/bi";
 
 const DashBorad = () => {
   return (
@@ -7,7 +9,10 @@ const DashBorad = () => {
       <h3 className='dashboard-name' >Hi , Jalaj</h3>
       <div className='dashboard-content'>
         <div className='equity-container'>
-          <h5 className='header-name'>Equity</h5>
+          <div className='header-container'>
+            <AiOutlinePieChart className='icon' />
+            <h5 className='header-name'>Equity</h5>
+          </div>
           <div className='margin-container'>
             <div className='margin-container-1'>
               <h2>7L</h2>
@@ -20,7 +25,11 @@ const DashBorad = () => {
           </div>
         </div>
         <div className='commodity-container'>
-          <h5 className='header-name'>Commodity</h5>
+          <div className='header-container'>
+            <BiDroplet />
+            <h5 className='header-name'>Commodity</h5>
+
+          </div>
           <div className='margin-container'>
             <div className='margin-container-1'>
               <h2>0</h2>
