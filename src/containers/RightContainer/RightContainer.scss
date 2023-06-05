@@ -16,7 +16,10 @@
 
             display: flex;
             gap: 20px;
-
+            
+            .notification-bell{
+                position: relative;
+            }
             .nav-items{
                 display: flex;
                 align-items: center;

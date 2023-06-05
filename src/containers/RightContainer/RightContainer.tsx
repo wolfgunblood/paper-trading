@@ -31,7 +31,7 @@ const RightContainer = () => {
                     <li className=' nav-items' onClick={() => navigate('/position')}>
                         <p>Position</p>
                     </li>
-                    <li className='nav-items'>
+                    <li className='nav-items notification-bell'>
                         <AiOutlineBell size={20} />
                         <NotificationOverlay />
                     </li>

@@ -1,8 +1,11 @@
-import React from 'react'
+import React from 'react';
+import "./NotoficationOverLay.scss"
 
 const NotificationOverlay = () => {
   return (
-    <div>NotificationOverlay</div>
+    <div className='notification-overlay-container'>
+        No Notification
+    </div>
   )
 }
 

@@ -1,0 +1,17 @@
+.notification-overlay-container{
+    position: absolute;
+    // inset: 0;
+    top: 45px;
+    right: -10px;
+    z-index: 3;
+
+    height: 150px;
+    width: 300px;
+    background-color: #474545;
+    border: 2px solid #131313;
+    border-radius: 5px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
