@@ -1,8 +1,12 @@
-import React from 'react'
+import React from 'react';
+import "./Orders.scss";
+import Initial from '../../components/Initial/Initial'
 
 const Orders = () => {
   return (
-    <div></div>
+    <div className='order-containe'>
+      <Initial />
+    </div>
   )
 }
 
