@@ -14,6 +14,7 @@ import NotificationOverlay from '../../components/NotificationOverlay/Notificati
 const RightContainer = () => {
     const navigate = useNavigate();
     const [active, setActive] = useState('dashboard');
+    const [showNotification, setShowNotification] = useState(false);
     return (
         <div className='right-container'>
             <nav className='right-nav'>
@@ -31,9 +32,9 @@ const RightContainer = () => {
                     <li className=' nav-items' onClick={() => navigate('/position')}>
                         <p>Position</p>
                     </li>
-                    <li className='nav-items notification-bell'>
+                    <li className='nav-items notification-bell' onClick={() => setShowNotification(!showNotification)}>
                         <AiOutlineBell size={20} />
-                        <NotificationOverlay />
+                        <NotificationOverlay show={showNotification} />
                     </li>
                     <li className='nav-items'>
                         <BiUserCircle size={20} />
